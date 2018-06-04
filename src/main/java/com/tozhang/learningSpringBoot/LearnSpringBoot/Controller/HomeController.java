@@ -14,6 +14,7 @@ public class HomeController {
         //Our greeting() method has one argument--@RequestParam(required=false, defaultValue="") String name.
         // It indicates that this value can be requested via an HTTP query (?name=Greg)--the query isn't required,
         // and in case it's missing, it will supply an empty string.
+        //test for fun
         return name.equals("") ? "Hey!" : "Hey, " + name + "!";
     }
 }
